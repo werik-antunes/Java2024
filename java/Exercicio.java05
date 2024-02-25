@@ -1,0 +1,20 @@
+package exercicio;
+import java.util.Scanner;
+
+public class Exercicio {
+	public static void main(String[]args) {
+		
+		//5) Escreva um algoritmo para ler dois valores do teclado e exibir como resposta a multiplicação dos valores.
+		
+		System.out.println("Digite um número: ");
+		Scanner sc = new Scanner (System.in);
+		int valor1 = sc.nextInt();
+		
+		System.out.println("Digite outro número: ");
+		int valor2 = sc.nextInt();
+		int resultado = valor1 * valor2;
+		
+		System.out.println("A multiplicação dos números " + valor1 + " e " + valor2 + " o resultado é: " + resultado);
+		
+	}
+}

@@ -1,0 +1,23 @@
+package exercicio;
+	import java.util.Scanner;
+	
+public class Exercicio {
+
+	//11) Escreva um algoritmo para ler as dimensões de um trapézio (base maior, base menor e altura), calcular e escrever a área do trapézio. a=(B+b).h/2
+	
+	public static void main(String[]args) {
+		System.out.println("Digite a base maior do trapézio: ");
+		Scanner sc = new Scanner(System.in);
+		int maior = sc.nextInt();
+		
+		System.out.println("Digite a base menor do trapézio: ");
+		int menor = sc.nextInt();
+		
+		System.out.println("Digite a altura do trapézio: ");
+		int altura = sc.nextInt();
+		int res = (maior + menor)*altura/2;
+		
+		System.out.println("A área do trapézio é: " + res);
+			
+	}
+}

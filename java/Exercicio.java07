@@ -1,0 +1,21 @@
+package exercicio;
+	import java.util.Scanner;
+	
+public class Exercicio {
+	//7) Escreva um algoritmo para ler as dimensões de um retângulo (base e altura), calcular e escrever a área do retângulo. Dica a=b.h
+	
+	
+	public static void main(String[]args) {
+		
+		System.out.println("Digite a Base do retângulo: ");
+		Scanner sc = new Scanner(System.in);
+		int b1 = sc.nextInt();
+		
+		System.out.println("Digite a Altura do retângulo: ");
+		int a2 = sc.nextInt();
+		int res = b1 * a2;
+		
+		System.out.println("A área entre a Base " + b1 + " e Altura " + a2 + " é: " + res);
+		
+	}
+}

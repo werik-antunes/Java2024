@@ -1,0 +1,21 @@
+package exercicio;
+import java.util.Scanner;
+
+public class Exercicio {
+	public static void main(String[]args) {
+		
+		//4) Escreva um algoritmo para ler dois valores do teclado e exibir como resposta a subtração dos valores.
+		
+		System.out.println("Digite um valor: ");
+		Scanner sc = new Scanner(System.in);
+		int valor1 = sc.nextInt();
+		
+		System.out.println("Digite outro valor: ");
+		int valor2 =sc.nextInt();
+		
+		int resultado = valor1 - valor2;
+		
+		System.out.println("A subtração dos valores " + valor1 + " e " + valor2 + " o resultado é : " + resultado);
+		
+	}
+}
