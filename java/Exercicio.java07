@@ -9,11 +9,11 @@ public class Exercicio {
 		
 		System.out.println("Digite a Base do retângulo: ");
 		Scanner sc = new Scanner(System.in);
-		int b1 = sc.nextInt();
+		float b1 = sc.nextFloat();
 		
 		System.out.println("Digite a Altura do retângulo: ");
-		int a2 = sc.nextInt();
-		int res = b1 * a2;
+		float a2 = sc.nextFloat();
+		float res = b1 * a2;
 		
 		System.out.println("A área entre a Base " + b1 + " e Altura " + a2 + " é: " + res);
 		
